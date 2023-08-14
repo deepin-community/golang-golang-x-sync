@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: sync
 Source: https://godoc.org/golang.org/x/sync
+Upstream-Name: sync
 
 Files: *
-Copyright: 2009-2017 The Go Authors
+Copyright: 2009 The Go Authors
 License: BSD-3-clause
 
 Files: debian/*

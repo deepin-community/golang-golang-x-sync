@@ -1,3 +1,13 @@
+golang-golang-x-sync (0.2.0-1) unstable; urgency=medium
+
+  * New upstream version 0.2.0
+  * Set debian/watch to track released gzip-compressed tarballs on GitHub
+  * Reorder fields in debian/control and debian/copyright
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.2 (no change)
+
+ -- Anthony Fok <foka@debian.org>  Wed, 21 Jun 2023 17:37:52 -0600
+
 golang-golang-x-sync (0.1.0-1) unstable; urgency=medium
 
   * Team upload
