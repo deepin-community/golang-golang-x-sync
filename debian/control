@@ -7,9 +7,9 @@ Uploaders: Dr. Tobias Quathamer <toddy@debian.org>,
 Rules-Requires-Root: no
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-golang,
-               golang-any
+               golang-any (>= 2:1.18~)
 Testsuite: autopkgtest-pkg-go
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-golang-x-sync
 Vcs-Git: https://salsa.debian.org/go-team/packages/golang-golang-x-sync.git
 Homepage: https://golang.org/x/sync
@@ -18,8 +18,7 @@ XS-Go-Import-Path: golang.org/x/sync
 Package: golang-golang-x-sync-dev
 Architecture: all
 Multi-Arch: foreign
-Depends: ${shlibs:Depends},
-         ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Supplemental Go synchronization libraries
  This package provides supplemental Go libraries (golang.org/x/sync) that
  were not included in the main distribution. It provides Go concurrency

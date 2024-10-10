@@ -1,3 +1,37 @@
+golang-golang-x-sync (0.7.0-1) unstable; urgency=medium
+
+  * New upstream version 0.7.0
+  * Bump Standards-Version to 4.7.0 (no change)
+
+ -- Anthony Fok <foka@debian.org>  Fri, 26 Apr 2024 03:02:22 -0600
+
+golang-golang-x-sync (0.6.0-1) unstable; urgency=medium
+
+  * New upstream version 0.6.0
+
+ -- Anthony Fok <foka@debian.org>  Mon, 29 Jan 2024 14:18:17 -0700
+
+golang-golang-x-sync (0.5.0-1) unstable; urgency=medium
+
+  * New upstream version 0.5.0
+  * debian/rules: Invoke dh with --builddirectory=_build
+  * Bump build-dependency golang-any (>= 2:1.18~) as per go.mod
+
+ -- Anthony Fok <foka@debian.org>  Thu, 07 Dec 2023 08:03:16 -0700
+
+golang-golang-x-sync (0.4.0-1) unstable; urgency=medium
+
+  * New upstream version 0.4.0
+
+ -- Anthony Fok <foka@debian.org>  Wed, 01 Nov 2023 02:13:56 -0600
+
+golang-golang-x-sync (0.3.0-1) unstable; urgency=medium
+
+  * New upstream version 0.3.0
+  * Drop -dev package’s unneeded dependency on ${shlibs:Depends}
+
+ -- Anthony Fok <foka@debian.org>  Thu, 21 Sep 2023 02:54:39 -0600
+
 golang-golang-x-sync (0.2.0-1) unstable; urgency=medium
 
   * New upstream version 0.2.0
